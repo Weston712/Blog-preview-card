@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5d04f;
+  padding-top: 100px;
+}
+
+.wrapper__container {
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px black;
+  box-shadow: 7px 7px 1px black;
+}
+
+.wrapper__svg {
+  text-align: center;
+  padding-top: 16px;
+}
+
+svg {
+  width: 90%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.learning {
+  width: 25%;
+  height: 8%;
+  background-color: #f5d04f;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+
+.learning__text {
+  text-align: center;
+  padding-top: 9px;
+  font-family: Figtree;
+}
+
+.published_data_text {
+  font-family: Figtree;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+
+.header__text {
+  font-family: Figtree;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+
+.paragraph__text {
+  font-family: Figtree;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-right: 16px;
+  margin-left: 18px;
+  color: #9a9a9a;
+}
+
+.wrapper__footer {
+  margin-top: 16px;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 64%;
+}
+
+.avatar__footer__name__text {
+  font-family: Figtree;
+  font-weight: 800;
+}
+
+@media (max-width: 431px) {
+  .wrapper__container {
+    width: 80%;
+    height: 70vh;
+  }
+
+  .learning__text {
+    font-size: 4vw;
+  }
+
+  .published_data_text {
+    font-size: 4vw;
+  }
+
+  .header__text {
+    font-size: 5vw;
+  }
+
+  .paragraph__text {
+    font-size: 4vw;
+  }
+
+  .avatar__footer__name__text {
+    font-size: 4vw;
+  }
+}
