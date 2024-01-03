@@ -8,9 +8,10 @@
 
 .app {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #f5d04f;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .wrapper__container {
@@ -89,6 +90,11 @@ img {
 }
 
 @media (max-width: 421px) {
+
+  .app {
+    height: 100vh;
+  }
+
   .wrapper__container {
     width: 86%;
   }
